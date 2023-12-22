@@ -43,7 +43,7 @@ const MobileInstallModal = () => {
             {!supportsPWA && showModal && (
                 <>
                     <NonPWAInstallModal />
-                    <button onClick={closeModal} className="flex rounded-lg px-[38px] py-1 border border-sec bg-sec/20 text-sec hover:bg-sec hover:text-black font-semibold">Not now</button>
+                    {/* <button onClick={closeModal} className="flex rounded-lg px-[38px] py-1 border border-sec bg-sec/20 text-sec hover:bg-sec hover:text-black font-semibold">Not now</button> */}
                 </>
             )}
         </>

@@ -3,7 +3,7 @@ import NavbarOnboard from '@/components/navbar';
 import OnboardBar from '@/components/onboardbar'
 import { useRouter } from "next/router";
 import { useAccount, useContractWrite } from 'wagmi';
-import TwitterAuth from '@/components/TwitterAuth';
+import TwitterAuth from '@/components/TwitterAuth'; //
 import { useUser } from '../../utils/usercontext';
 import { getDatabase, ref, push, set } from 'firebase/database';
 import Particles from '../../utils/particles';
